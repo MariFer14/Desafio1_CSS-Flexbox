@@ -19,8 +19,6 @@ body {
 .chats {
   width: 25%;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .chat-activo {
