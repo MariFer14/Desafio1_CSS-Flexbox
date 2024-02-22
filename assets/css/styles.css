@@ -18,9 +18,8 @@ body {
 
 .chats {
   width: 25%;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .chat-activo {
@@ -125,7 +124,6 @@ body {
 .pag-principal {
   background-color: #00b900;
   width: 75%;
-  height: 104vh;
   display: flex;
   justify-content: center;
   align-items: center;
