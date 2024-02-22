@@ -19,11 +19,13 @@ body {
 .chats {
   width: 25%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .chat-activo {
   display: flex;
-  border: 1px solid rgb(153, 153, 153);
+  border: 1px solid rgb(190, 190, 190);
   padding: 15px 25px;
   justify-content: space-between;
   align-items: center;
@@ -46,6 +48,7 @@ body {
 }
 
 .chat-txt p {
+  font-weight: 300;
   font-size: 12px;
   color: rgb(153, 153, 153);
 }
@@ -53,13 +56,76 @@ body {
 .iconos i {
   font-size: 24px;
   color: rgb(153, 153, 153);
-  margin-left: 12px;
+  margin-left: 15px;
+}
+
+.iconos i:hover{
+    color: rgb(111, 109, 109);
+}
+
+.chat-nuevo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 40px;
+}
+
+.chat-nuevo button {
+  background-color: #00b900;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 60px;
+  border: none;
+}
+
+.chat-nuevo button:hover {
+  background-color: #9cff9c;
+  color: #000000;
+  cursor: pointer;
+}
+
+.chat1 {
+  display: flex;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datos-chat1 {
+  display: flex;
+  align-items: center;
+}
+
+.datos-chat1 .chat1-n {
+  line-height: 25px;
+}
+
+.datos-chat1 .chat1-n p {
+  color: rgb(111, 109, 109);
+}
+
+.datos-chat1 img {
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+}
+
+.chat1 .hora {
+  margin-top: -3.5rem;
+  margin-right: -0.5rem;
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  font-weight: 300;
 }
 
 .pag-principal {
   background-color: #00b900;
   width: 75%;
-  height: 100vh;
+  height: 104vh;
   display: flex;
   justify-content: center;
   align-items: center;
