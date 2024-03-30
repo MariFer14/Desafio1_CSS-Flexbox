@@ -1,4 +1,4 @@
-# Desafio1_CSS-Flexbox
+# SistemaDeMensajería-Desafio1_CSS-Flexbox
 
 Este trabajo es de índole académico, del módulo CSS Avanzado en mi paso por la Academia Desafío Latam.
 
